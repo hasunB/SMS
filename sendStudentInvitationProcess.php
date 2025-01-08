@@ -24,7 +24,7 @@ if (isset($_POST["emailStudent"])) {
         $mail->IsSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'hasunbandara17@gmail.com';
+        $mail->Username = '';
         $mail->Password = '';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
