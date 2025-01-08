@@ -26,7 +26,7 @@ if (isset($_POST["email"])) {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'hasunbandara17@gmail.com';
-        $mail->Password = 'gcvghmxfjlaamfvn';
+        $mail->Password = '';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
         $mail->setFrom('hasunbandara17@gmail.com', 'Teacher Invitation');
